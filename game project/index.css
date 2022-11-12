@@ -1,0 +1,468 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    font-family: 'Abyssinica SIL', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Neonderthaw', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'The Nautigal', cursive;
+font-family: 'Vidaloka', serif;
+}
+/* navber design  */
+.navber {
+background-color: black;
+height: 70px;
+position: relative;
+}
+.main{
+    margin-left: 60px;
+    margin-top: 15px;
+    position: absolute;
+}
+.main-1 .line {
+    text-decoration: 3px underline crimson;
+    text-underline-offset: 12px;
+}
+.main-1{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+}
+.main-1 a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+.main-1 a:hover{
+    text-decoration: 3px underline crimson;
+    text-underline-offset: 12px;
+}
+.serchber{
+    position: absolute;
+    left:1200px;
+    top: 20px;
+
+}
+.join{
+    position: relative;
+}
+.join input{
+    width: 250px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 20px;
+    left: 10px;
+}
+.serchber img{
+    width: 30px;
+    position: absolute;
+    top: 4px;
+    right: 120px;
+}
+.join a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(29, 139, 38);
+    padding: 14px;
+    border-radius: 10px;
+}
+.join a:hover{
+    background-color: rgba(189, 247, 194, 0.781);
+}
+.join a:active{
+    background-color: rgba(179, 245, 185, 0.918);
+}
+/* home design  */
+
+.home{
+position: relative;
+}
+.image img{
+position: absolute;
+left: 1100px;
+width: 500px;
+height: 750px;
+} 
+.text{
+position: absolute;
+top: 230px;
+width: 700px;
+left: 130px;
+}
+.text h3{
+    padding: 20px;
+    letter-spacing: 9px;
+    font-size: 25px;
+}
+.text h1{
+    font-size: 72px;
+    color: crimson;
+    padding: 8px;
+}
+.text p{
+    text-align: justify;
+    margin: 4px;
+    line-height: 25px;
+}
+.text a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 260px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.text a:hover{
+background-color: rgba(255, 255, 255, 0.247);
+}
+.text a:active{
+    background-color:rgba(192, 189, 189, 0.678);
+}
+
+/* card desing  */
+.container{
+    position: relative;
+    width: 100%;
+
+}
+.image {
+ background-image: url(/Image/heading_picture-removebg-preview.png);
+ background-repeat: no-repeat;
+margin-left:70%;
+ height: 80vh;
+
+}
+.heading{
+    width: 800px;
+    position: absolute;
+    bottom: 230px;
+    margin-left:70px;
+}
+.heading h4{
+    letter-spacing: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    padding: 20px;
+}
+.heading h1{
+    font-size: 80px;
+    color: crimson;
+    padding: 10px;
+}
+.heading p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+}
+.heading a{
+text-decoration: none;
+display: inline-block;
+color: black;
+background-color: white;
+padding: 13px ;
+margin-left: 230px;
+margin-top: 30px;
+}
+.heading a:hover{
+    transform: scale(1.2 );
+}
+/* card design  */
+.card-desing{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.card-1{
+    width: 400px;
+    height:620px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 3px 3px 15px rgb(88, 88, 88),-3px -3px rgb(255, 230, 230);
+    
+}
+.avengers-image img{
+    width: 380px;
+    height: 380px;
+    padding: 20px;
+}
+.Avengers-text h1{
+    text-align: center;
+    font-size: 30px;
+}
+.Avengers-text p{
+    text-align: justify;
+    padding: 10px;
+}
+.Avengers-text a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 12px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.card-1 a:hover{
+    background-color: crimson;
+    transition: 0.4s;
+}
+.card-1:hover{
+    transform: scale(1.1);
+}
+.card-2{
+    width: 400px;
+    height:620px;
+    margin-top: 30px;
+    margin-left: 170px;
+
+    box-shadow: 3px 3px 15px rgb(88, 88, 88),-3px -3px rgb(255, 230, 230);
+}
+.image2 img{
+    width: 380px;
+    height: 380px;
+    padding: 20px;
+}
+.black-text h1{
+    text-align: center;
+    font-size: 30px;
+}
+.black-text p{
+    text-align: justify;
+    padding: 10px;
+}
+.black-text a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 12px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.black-text a:hover{
+    background-color: crimson;
+    transition: 0.4s;
+}
+.card-2:hover{
+    transform: scale(1.1);
+}
+.card-3{
+    width: 400px;
+    height:620px;
+    margin-top: 30px;
+    margin-left: 170px;
+
+    box-shadow: 3px 3px 15px rgb(88, 88, 88),-3px -3px rgb(255, 230, 230);
+}
+.image3 img{
+    width: 380px;
+    height: 380px;
+    padding: 20px;
+}
+.squid-text h1{
+    text-align: center;
+    font-size: 30px;
+}
+.squid-text p{
+    text-align: justify;
+    padding: 10px;
+}
+.squid-text a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 12px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.squid-text a:hover{
+    background-color: crimson;
+    transform: 0.3s;
+}
+.card-3:hover{
+    transform: scale(1.1);
+}
+.card-4{
+    width: 400px;
+    height:620px;
+    margin-top: 30px;
+    margin-left: 170px;
+
+    box-shadow: 3px 3px 15px rgb(88, 88, 88),-3px -3px rgb(255, 230, 230);
+}
+.image4 img{
+    width: 380px;
+    height: 380px;
+    padding: 20px;
+}
+.squid-text h1{
+    text-align: center;
+    font-size: 30px;
+}
+.squid-text p{
+    text-align: justify;
+    padding: 10px;
+}
+.squid-text a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 12px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.squid-text a:hover{
+    background-color: crimson;
+    transform: 0.3s;
+}
+.card-3:hover{
+    transform: scale(1.1);
+}
+.card-desing-1{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+/* anime design  */
+
+.hello1{
+    width: 750px;
+    clip-path: polygon(0% 0%, 100% 0%, 75% 90%, 0% 90%);
+    height: 350px;
+    background-color: black;
+    position: relative;
+}
+.hello1:hover{
+    transform: scale(0.9);
+}
+.anime1 img{
+    width: 150px;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    clip-path: circle(50% 50%,50% 50%,);
+}
+.anime-text h1{
+    color: crimson;
+}
+.anime-text{
+    width: 400px;
+    position: absolute;
+    left: 240px;
+    top: 90px;
+}
+.anime{
+    display: flex;
+}
+.game{
+  display: flex;
+  background-color: black;
+}
+.one-1 img{
+width: 450px;
+margin:30px;
+}
+.two-2{
+    width: 450px;
+    margin:40px;
+}
+.three-3{
+    width: 450px;
+margin:40px;
+
+}
+.one-1 img:hover{
+   transform: scale(1.1);
+    }
+    .two-2:hover{
+        transform: scale(1.1);
+    }
+    .three-3:hover{
+        transform: scale(1.1);
+    }
+    /* profile  */
+    .profile{
+        background-color: #7f97ff;
+    }
+    .profile img .detelis{
+        box-shadow: 3px 3px 15px wheat;
+    }
+    .normal{
+        padding: 20px;
+        
+    }
+    .normal img{
+        width: 400px;
+        height: 500px;
+        margin-left: 30px;
+    }
+    .detelis{
+        width: 400px;
+        margin-left: 30px;
+    }
+    .detelis h1{
+        text-align: center;
+        padding: 12px;
+    }
+    .detelis p{
+        text-align: center;
+    }
+    .normal{
+        position: relative;
+    }
+    .heading-1{
+        position: absolute;
+        top: 4000px;
+        left: 700px;
+
+    }
+    .heading-1 h4{
+        padding: 20px;
+        color: black;
+    }
+
+    .heading-1 h1{
+        padding: 20px;
+    }
+    .skil-detelis{
+        position: absolute;
+        top: 4000px;
+        left: 1200px;
+    }
+    .skil{
+        color: white;
+        font-weight: 700;
+        padding: 20px;
+    }
+    .skil-1 h3{
+        padding: 20px;
+        color: black;
+        
+    }
+    .profile-image img:hover{
+transform: scale(0.9);
+    }
+    .skil-1 h3:hover{
+        color: crimson;
+    }
+    .heading-1 h4:hover{
+        color: crimson;
+    }
+    span{
+        color: crimson;
+        font-size: 40px;
+
+    }
+ 
